@@ -11,11 +11,10 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  new_array = []
   katz_deli.each_with_index do |name, index|
-    new_array << "Welcome, #{name}. You are number #{index+1} in line."
+    puts "Welcome, #{name}. You are number #{index+1} in line."
   end
-  new_array
+ 
 end
 
 def now_serving(katz_deli)
