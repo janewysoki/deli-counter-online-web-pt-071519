@@ -14,10 +14,11 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.count == 0
-    
+    katz_deli << "Ada"
   katz_deli.each_with_index do |name, index|
     "Welcome, #{name}. You are number #{index+1} in line."
   end
+end
 end
 
 def now_serving(katz_deli)
