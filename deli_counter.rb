@@ -7,6 +7,7 @@ def line(katz_deli)
   katz_deli.each do |name|
     puts "The line is currently: #{name}"
   end
+  end
 end
 
 def take_a_number(katz_deli, name)
