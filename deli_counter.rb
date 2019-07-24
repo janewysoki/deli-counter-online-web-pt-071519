@@ -13,9 +13,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.count == 0
+ 
     katz_deli << name
-  elsif katz_deli.count >= 1
+ 
     katz_deli.each_with_index do |customer, index|
     puts "Welcome, #{customer}. You are number #{index+1} in line."
   end
